@@ -25,7 +25,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
-         "id":6,
+         "id":64,
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
@@ -326,18 +326,17 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
                  "height":61.6672851518306,
                  "id":12,
                  "name":"clockPopup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":93.7162209047986,
                  "x":483.919325398621,
                  "y":14.0269116471316
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":13,
                  "name":"jitsiChillZone",
@@ -363,13 +362,13 @@
                          "value":1
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":32,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":14,
                  "name":"silentZone",
@@ -380,13 +379,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":224,
                  "x":640,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":224,
                  "id":16,
                  "name":"jitsiMeetingRoom",
@@ -412,24 +411,24 @@
                          "value":1
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":768,
                  "y":224
                 }, 
                 {
-                 "class":"area",
                  "height":39.6969696969697,
                  "id":17,
                  "name":"clock",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":50.2727272727272,
                  "x":438.484848484849,
                  "y":96.3333333333333
                 }, 
                 {
-                 "class":"area",
                  "height":64,
                  "id":18,
                  "name":"to-conference",
@@ -440,13 +439,13 @@
                          "value":"conference.tmj#from-office"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":0,
                  "y":512
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":19,
                  "name":"from-conference",
@@ -457,6 +456,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":64,
@@ -542,7 +542,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":63,
+ "nextlayerid":65,
  "nextobjectid":20,
  "orientation":"orthogonal",
  "properties":[
@@ -572,7 +572,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -714,9 +714,143 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "firstgid":2956,
+         "source":"tilesets\/WA_Special_Zones.tsx"
+        }, 
+        {
+         "columns":12,
+         "firstgid":2968,
+         "image":"tilesets\/WA_Decoration.png",
+         "imageheight":256,
+         "imagewidth":384,
+         "margin":0,
+         "name":"WA_Decoration",
+         "spacing":0,
+         "tilecount":96,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":25,
+         "firstgid":3064,
+         "image":"tilesets\/WA_Exterior.png",
+         "imageheight":1088,
+         "imagewidth":800,
+         "margin":0,
+         "name":"WA_Exterior",
+         "spacing":0,
+         "tilecount":850,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":6,
+         "firstgid":3914,
+         "image":"tilesets\/WA_Logo_Long.png",
+         "imageheight":32,
+         "imagewidth":192,
+         "margin":0,
+         "name":"WA_Logo_Long",
+         "spacing":0,
+         "tilecount":6,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":10,
+         "firstgid":3920,
+         "image":"tilesets\/WA_Miscellaneous.png",
+         "imageheight":352,
+         "imagewidth":320,
+         "margin":0,
+         "name":"WA_Miscellaneous",
+         "spacing":0,
+         "tilecount":110,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":12,
+         "firstgid":4030,
+         "image":"tilesets\/WA_Other_Furniture.png",
+         "imageheight":416,
+         "imagewidth":384,
+         "margin":0,
+         "name":"WA_Other_Furniture",
+         "spacing":0,
+         "tilecount":156,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":25,
+         "firstgid":4186,
+         "image":"tilesets\/WA_Room_Builder.png",
+         "imageheight":1280,
+         "imagewidth":800,
+         "margin":0,
+         "name":"WA_Room_Builder",
+         "spacing":0,
+         "tilecount":1000,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":13,
+         "firstgid":5186,
+         "image":"tilesets\/WA_Seats.png",
+         "imageheight":448,
+         "imagewidth":416,
+         "margin":0,
+         "name":"WA_Seats",
+         "spacing":0,
+         "tilecount":182,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":6,
+         "firstgid":5368,
+         "image":"tilesets\/WA_Special_Zones.png",
+         "imageheight":64,
+         "imagewidth":192,
+         "margin":0,
+         "name":"WA_Special_Zones",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":10,
+         "firstgid":5380,
+         "image":"tilesets\/WA_Tables.png",
+         "imageheight":864,
+         "imagewidth":320,
+         "margin":0,
+         "name":"WA_Tables",
+         "spacing":0,
+         "tilecount":270,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":13,
+         "firstgid":5650,
+         "image":"tilesets\/WA_User_Interface.png",
+         "imageheight":672,
+         "imagewidth":416,
+         "margin":0,
+         "name":"WA_User_Interface",
+         "spacing":0,
+         "tilecount":273,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":31
 }
